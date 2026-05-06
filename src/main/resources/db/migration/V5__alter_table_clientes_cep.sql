@@ -1,0 +1,1 @@
+ALTER TABLE tb_clientes ADD COLUMN cep VARCHAR(8);
