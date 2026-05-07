@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.climacontrol</groupId>
 	<artifactId>app</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>climacontrol-0.0.1</version>
 	<name>app</name>
 	<description>ClimaControl</description>
 	<url/>
