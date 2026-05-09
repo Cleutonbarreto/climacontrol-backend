@@ -17,7 +17,9 @@ public class CorsConfig {
         CorsConfiguration config = new CorsConfiguration();
 
         // FRONTEND PERMITIDO (APENAS ESTE)
-        config.setAllowedOrigins(List.of("http://localhost:4200"));
+        config.setAllowedOrigins(List.of("http://localhost:4200",
+                "https://climacontrol-frontend.vercel.app"
+        ));
 
         // MÉTODOS EXATOS QUE SUA API USA
         config.setAllowedMethods(List.of(
